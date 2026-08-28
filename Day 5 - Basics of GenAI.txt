@@ -1,0 +1,66 @@
+Day 5 - Basics of GenAI
+
+LLM:
+input -> Encoding(Tokenization, Mathematical numbers) -> LLM(Start to predict next word, answers by generating Self Attention Mechanism ) -> Decoding(Embedding, token) -> output
+
+Types:
+LLM - text
+LMM - Large multi model(Google Gemini
+SLM - Small language model
+VLM - Vision Language Model and so on
+Just understand how LLM works and it is enough for now
+
+LLM types: Open source LLM and cloud LLM:
+
+Open Source LLM:
+Ollama, Hugging face
+Each models have capabilities.
+Context - how many tokens(input) can be taken by that model
+
+Closed LLM: Frontier models:
+OpenAI
+Anthropic
+Grok 
+Gemini
+
+Open API key for close LLMs - to build agents. Buy 10$ top up.
+
+
+Take 1:open source model and write down the capabilities 
+Task 2:Go to Anthropic platform. Login and check models. complete analyze and write about 1 model
+Task 3:Grok platform - grok console ai
+Task 4:Google AI models
+
+How to purchase open API keys for closed LLM:
+platform.openai.com
+search: billing -> Add credits -> Add payment details -> Disable auto renewal
+Create new secret key.
+using this, we will build agents, automations, micro SaaS, etc..
+
+LLM benchmarks:
+where to see benchmarks. for every models, check for release. Check in goggle search
+
+Gen AI tools:
+tools required to complete this course
+
+GenAI Chat tools: Chatgpt, Gemini, Claude. Grok, Kimi, Qwen, Deepseek - AI assisted task/coding
+AI Code editor:
+	Desktop app: Antigravity, Cursor, Replit, Kreo, Github, Visual Code
+	Web app: Lovable, Bolt, emergen, etc
+No need to use these now. This is discussed to understand about the categories.
+Agentic Code: Doing for task and development. onlyin 6th week. - Agentic coding
+	Claude
+	Kimi
+	OpenCode
+
+
+Hugging face:
+Social media for AI developers
+AI models built are published in this platform. we can download and use them.
+Launch huggingface.co and go to spaces to check on all models. Explore all models to check on their capabilities
+
+How to pull open source model from huggingface:
+Learnt how to pull the model to local vscode
+
+How to pull open source model from Ollama:
+install ollama in local system
